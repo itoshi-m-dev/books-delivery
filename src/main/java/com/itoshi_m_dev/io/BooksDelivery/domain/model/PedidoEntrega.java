@@ -1,13 +1,11 @@
 package com.itoshi_m_dev.io.BooksDelivery.domain.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.io.Serializable;
 
 @Entity
+@Table(name = "tb_pedidoEntrega")
 public class PedidoEntrega implements Serializable {
 
     @Id
